@@ -1,0 +1,6 @@
+build() {
+  echo "Building phc-intel module for ${KERNELVERSION} kernel..."
+  phc-intel setup
+}
+
+# vim: ft=sh ts=2 sw=2 et:
