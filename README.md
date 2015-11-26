@@ -1,4 +1,4 @@
 mkinitcpio-hooks
 ================
 
-mkinitcpio hooks for Bumblebee, NVIDIA, VirtualBox and CDEmu modules
+mkinitcpio hooks for Bumblebee, NVIDIA, VirtualBox, CDEmu and PHC-Intel modules
