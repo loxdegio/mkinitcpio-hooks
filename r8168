@@ -1,0 +1,7 @@
+build() {
+  _version=$( echo $(pacman -Qs r8168-dkms | sed 's/^[^ ]* \|-[0-9]*$//g;2d') | cut -d '-' -f 1)
+  echo "Building r8168 Realtek Ethernet modules for ${KERNELVERSION} kernel..."
+  dkms install r8168/${_version} -k ${KERNELVERSION}/_arch
+}
+
+# vim: ft=sh ts=2 sw=2 et:
